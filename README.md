@@ -55,6 +55,13 @@ Run a scenario by passing a config file path
 ./bin/wireworld config/<scenario_config>.json
 ```
 
+## Configuration files
+* `clock_generator_config.json` - Demontrates a continous pulse generator. A closed loop of wire creates a repeating signal that emits electrons down an attached output path.
+* `diode_blocked_config.json` - Shows a diode successfully blocking a reverse signal
+* `diode_config.json` - Shows the same diode allowing a forward signal to pass.
+* `or_gate_config.json` - Simulates a logical OR gate. Two input wires merge into a single wire, demonstrating that a signal from either inputs will continue down the path. 
+* `signal_splitter.json` - Demonstrates a single signal duplicating into multiple outputs. 
+
 ## Visualizing the Results
 Visualize the simulation using the [Cell-DEVS Web Viewer](https://devssim.carleton.ca/cell-devs-viewer/)
 * Load the scenario config file (`.json`) and its corresponding log file (`.csv`)
