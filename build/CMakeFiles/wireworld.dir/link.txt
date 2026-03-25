@@ -1,1 +1,0 @@
-/usr/bin/c++  -O3 CMakeFiles/wireworld.dir/src/main.cpp.o -o /home/Andrews/Cadmium/cadmium_v2/Wireworld-Cell-DEVS/bin/wireworld 
