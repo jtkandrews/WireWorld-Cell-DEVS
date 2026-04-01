@@ -42,7 +42,7 @@ This project is configured to have `WireWorld-Cell-Devs` inside the `cadmium_v2`
 
 ## Compliation Intructions
 ```bash
-source build.sh
+source build_sim.sh
 ```
 This will:
 * Remove any previous `bin/` and `build/` directories
